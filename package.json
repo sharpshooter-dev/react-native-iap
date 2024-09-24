@@ -1,8 +1,8 @@
 {
-  "name": "react-native-iap",
+  "name": "@nahlebn1k/react-native-iap",
   "version": "12.15.4",
   "description": "React Native In App Purchase Module.",
-  "repository": "https://github.com/dooboolab-community/react-native-iap",
+  "repository": "https://github.com/sharpshooter-dev/react-native-iap.git",
   "author": "hyochan <dooboolab@gmail.com> (https://github.com/hyochan)",
   "license": "MIT",
   "bugs": {
@@ -10,7 +10,8 @@
   },
   "homepage": "https://github.com/dooboolab-community/react-native-iap#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "contributors": [
     {
@@ -24,6 +25,10 @@
     {
       "name": "Jérémy Barbet",
       "url": "https://github.com/jeremybarbet"
+    },
+    {
+      "name": "nahlebn1k",
+      "url": "https://github.com/nahlebn1k"
     }
   ],
   "keywords": [
@@ -105,7 +110,7 @@
     "react": "18.2.0",
     "react-native": "*",
     "react-native-builder-bob": "0.20.4",
-    "release-it": "15.10.3",
+    "release-it": "^15.10.3",
     "ts-jest": "29.1.0",
     "typedoc": "^0.24.0",
     "typedoc-plugin-markdown": "^3.14.0",
